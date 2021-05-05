@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+.banner {
+    margin-bottom: 0.3rem;
+    padding: 1rem;
+    text-align: center;
+    height: 10rem;
+    font-family: 'Merriweather', serif;   
+    color: $Wblue;
+}
+
+
+.break-between {
+    background-color: $Wblue;
+    height: 1rem;
+    width: inherit;
+}
+
+.navbar-custom {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-family: 'serif';
+    background-color: #C5C6D6;
+    justify-content: space-between;
+    text-emphasis: bold;;
+}
+
+.navbar-custom li a {
+    color: $Wblue !important; 
+}
+.navbar-custom li a:hover { 
+    color: grey !important;
+}

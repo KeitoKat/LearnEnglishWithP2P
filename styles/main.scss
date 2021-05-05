@@ -1,0 +1,58 @@
+.main {
+   margin: 0rem 8rem 4rem 8rem;
+   font-size: 2vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+     margin: 2rem;
+     font-size: 3vw;
+    }
+  }
+
+// HOME PAGE
+.intro {
+  margin: 2rem;
+  padding: 1rem;
+  background-color: #F67280;
+  border-radius: 1%;
+  font-size: 1.3vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .intro {
+    padding: 0.5 rem;
+   margin: 2rem;
+   font-size: 3vw;
+  }
+}
+
+// SUPPORT PAGE
+
+.hero {
+  padding: 4rem 8rem 4rem 8rem;
+  background-color: #F67280;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    padding: 10%;
+  line-height: 1.5rem;
+  font-size: 3vw;
+  }
+}
+
+.form-custom {
+  margin: 4rem;
+  height: 20rem;
+  width: 20rem;
+  font-size: 1vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .form-custom {
+  padding: 0.5rem;
+  line-height: 1.5rem;
+  font-size: 3vw;
+  }
+}

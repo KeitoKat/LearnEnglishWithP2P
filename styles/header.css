@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
+header {
+  background-color: red;
+  height: 20rem;
+  font-family: 'Merriweather', serif;
+}
+
+.navbar {
+  font-family: 'serif';
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: lawngreen;
+}
+/*# sourceMappingURL=header.css.map */
