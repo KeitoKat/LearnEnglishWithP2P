@@ -40,15 +40,19 @@
 }
 
 .form-custom {
-  margin: 4rem;
-  height: 20rem;
-  width: 20rem;
-  font-size: 1vw;
+  margin: auto;
+  padding: 2rem;
+  display: block;
+  background-color: brown;
+  height: 40rem;
+  width: 40rem;
+  font-size: 1.5vw;
 }
 
 @media only screen and (max-width: 600px) {
   .form-custom {
-    padding: 0.5rem;
+    padding: 1rem;
+    width: auto;
     line-height: 1.5rem;
     font-size: 3vw;
   }

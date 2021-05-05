@@ -4,11 +4,10 @@
     margin-bottom: 0.3rem;
     padding: 1rem;
     text-align: center;
-    height: 10rem;
+    height: 15vw;
     font-family: 'Merriweather', serif;   
     color: $Wblue;
 }
-
 
 .break-between {
     background-color: $Wblue;
@@ -22,7 +21,8 @@
     font-family: 'serif';
     background-color: #C5C6D6;
     justify-content: space-between;
-    text-emphasis: bold;;
+    text-emphasis: bold;
+    font-size: 1.3vw;
 }
 
 .navbar-custom li a {
@@ -31,3 +31,10 @@
 .navbar-custom li a:hover { 
     color: grey !important;
 }
+
+@media only screen and (max-width: 1030px) {
+    .navbar-custom {
+    padding: 0.2rem;
+    font-size: 2.5vw;
+    }
+  }

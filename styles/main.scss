@@ -28,30 +28,40 @@
 }
 
 // SUPPORT PAGE
+.contain {
+  margin-bottom: 4rem;
+}
 
 .hero {
+  margin-bottom: 4rem;
   padding: 4rem 8rem 4rem 8rem;
   background-color: #F67280;
 }
 
 @media only screen and (max-width: 600px) {
   .hero {
-    padding: 10%;
+    margin-bottom: 2rem;
+  padding: 10%;
   line-height: 1.5rem;
   font-size: 3vw;
   }
 }
 
 .form-custom {
-  margin: 4rem;
-  height: 20rem;
-  width: 20rem;
-  font-size: 1vw;
+  margin: auto;
+  padding: 2rem;
+  display: block;
+  background-color: $Wyellow;
+  height: inherit;
+  width: 40rem;
+  border-radius: 1%;
+  font-size: 1.5vw;
 }
 
 @media only screen and (max-width: 600px) {
   .form-custom {
-  padding: 0.5rem;
+  padding: 1rem;
+  width: auto;
   line-height: 1.5rem;
   font-size: 3vw;
   }

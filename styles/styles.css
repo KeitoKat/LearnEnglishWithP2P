@@ -28,9 +28,16 @@ img {
   margin-bottom: 0.3rem;
   padding: 1rem;
   text-align: center;
-  height: 10rem;
+  height: 15vw;
   font-family: 'Merriweather', serif;
   color: #355C7D;
+}
+
+@media only screen and (max-width: 1030px) {
+  .navbar-custom {
+    padding: 10rem;
+    font-size: 2.5vw;
+  }
 }
 
 .break-between {
@@ -49,6 +56,7 @@ img {
           justify-content: space-between;
   -webkit-text-emphasis: bold;
           text-emphasis: bold;
+  font-size: 1.3vw;
 }
 
 .navbar-custom li a {
@@ -57,6 +65,13 @@ img {
 
 .navbar-custom li a:hover {
   color: grey !important;
+}
+
+@media only screen and (max-width: 1030px) {
+  .navbar-custom {
+    padding: 0.2rem;
+    font-size: 2.5vw;
+  }
 }
 
 .main {
@@ -87,13 +102,19 @@ img {
   }
 }
 
+.contain {
+  margin-bottom: 4rem;
+}
+
 .hero {
+  margin-bottom: 4rem;
   padding: 4rem 8rem 4rem 8rem;
   background-color: #F67280;
 }
 
 @media only screen and (max-width: 600px) {
   .hero {
+    margin-bottom: 2rem;
     padding: 10%;
     line-height: 1.5rem;
     font-size: 3vw;
@@ -101,15 +122,20 @@ img {
 }
 
 .form-custom {
-  margin: 4rem;
-  height: 20rem;
-  width: 20rem;
-  font-size: 1vw;
+  margin: auto;
+  padding: 2rem;
+  display: block;
+  background-color: #F8B195;
+  height: inherit;
+  width: 40rem;
+  border-radius: 1%;
+  font-size: 1.5vw;
 }
 
 @media only screen and (max-width: 600px) {
   .form-custom {
-    padding: 0.5rem;
+    padding: 1rem;
+    width: auto;
     line-height: 1.5rem;
     font-size: 3vw;
   }
