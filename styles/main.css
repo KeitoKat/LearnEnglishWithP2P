@@ -1,5 +1,15 @@
+p {
+  font-size: 1vw;
+}
+
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: 3vw;
+  }
+}
+
 .main {
-  margin: 0rem 8rem 4rem 8rem;
+  margin: 4rem 8rem 4rem 8rem;
   font-size: 2vw;
 }
 
@@ -11,31 +21,75 @@
 }
 
 .intro {
-  margin: 2rem;
-  padding: 1rem;
+  margin-bottom: 4rem;
+  padding: 4rem 8rem 4rem 8rem;
   background-color: #F67280;
-  border-radius: 1%;
   font-size: 1.3vw;
+  border-radius: 2rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .intro {
+    margin-bottom: 2rem;
+    padding: 10%;
+    line-height: 1.5rem;
+    font-size: 2vw;
+  }
+}
+
+.card.card-link a:link {
+  cursor: pointer;
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.card.card-custom {
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.card img {
+  width: 15rem;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1300px) {
+  .card.card-custom {
+    margin: 1rem;
+    padding: 1rem;
+  }
+  .card img {
+    width: 10rem;
+  }
+}
+
+.contain {
+  margin: 4rem 8rem 4rem 8rem;
+  font-size: 2vw;
 }
 
 @media only screen and (max-width: 600px) {
-  .intro {
-    padding: 0.5 rem;
+  .contain {
     margin: 2rem;
     font-size: 3vw;
   }
 }
 
 .hero {
+  margin-bottom: 4rem;
   padding: 4rem 8rem 4rem 8rem;
   background-color: #F67280;
+  font-size: 1.3vw;
+  border-radius: 2rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .hero {
+    margin-bottom: 2rem;
     padding: 10%;
     line-height: 1.5rem;
-    font-size: 3vw;
+    font-size: 2vw;
   }
 }
 
@@ -43,10 +97,11 @@
   margin: auto;
   padding: 2rem;
   display: block;
-  background-color: brown;
-  height: 40rem;
+  background-color: #C5C6D6;
+  height: inherit;
   width: 40rem;
-  font-size: 1.5vw;
+  border-radius: 1rem;
+  font-size: 1.3vw;
 }
 
 @media only screen and (max-width: 600px) {
@@ -56,5 +111,14 @@
     line-height: 1.5rem;
     font-size: 3vw;
   }
+}
+
+.quiz-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=main.css.map */
